@@ -21,13 +21,19 @@ main {
   padding-right: 52px;
   padding-bottom: 147px;
 }
+
+main div img {
+  height: 375px;
+  object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+  margin-top: 44px;
+}
 #headline {
   font-weight: bold;
   align: top;
   text-transform: uppercase;
   color: #e1624f;
   font-size: 16px;
-  text: bold;
+  line-height: 22px;
 }
 h1,
 h2,
@@ -40,15 +46,10 @@ figcaption {
   align: top;
   font-style: italic;
 }
-main img {
+img {
   border-radius: 28px;
-  height: 660px;
+  width: 100%;
 }
-img content {
-  width: 1120px;
-  height: 350px;
-}
-ol {
-  padding-left: 24px;
-  font-weight: bold;
+ul li::marker {
+  color: #333333;
 }
